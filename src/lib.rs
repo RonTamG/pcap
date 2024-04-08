@@ -68,6 +68,7 @@ mod codec;
 mod device;
 mod linktype;
 mod packet;
+mod runtime_load;
 
 #[cfg(not(windows))]
 pub use capture::activated::open_raw_fd;
